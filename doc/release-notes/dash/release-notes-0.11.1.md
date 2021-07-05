@@ -3,7 +3,7 @@
 
 Darkcoin Core 0.11.1 supports a full implementation of InstantX, Darksend improvements
 and a new version of enforcement compatible with the newer Bitcoin architechure.
-Latest release in 0.11.1.x tree is v0.11.1.26, which is rebranding Darkcoin to Dash.
+Latest release in 0.11.1.x tree is v0.11.1.26, which is rebranding Darkcoin to Amero.
 
 - Fully implemented IX
 - Added support for DSTX messages, as a result DS should be much faster
@@ -30,7 +30,7 @@ Italian, Catalan, Chinese, Danish, Finnish, Swedish, Czech, Turkish and Bavarian
 
 Thanks to who contributed to this release, at least:
 
-- eduffield
+- eaeroield
 - Vertoe
 - UdjinM6
 - Holger Schinzel

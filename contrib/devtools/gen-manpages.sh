@@ -7,7 +7,7 @@ BUILDDIR=${BUILDDIR:-$TOPDIR}
 BINDIR=${BINDIR:-$BUILDDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$BINDIR/dashd}
+BITCOIND=${BITCOIND:-$BINDIR/amerod}
 BITCOINCLI=${BITCOINCLI:-$BINDIR/dash-cli}
 BITCOINTX=${BITCOINTX:-$BINDIR/dash-tx}
 BITCOINQT=${BITCOINQT:-$BINDIR/qt/dash-qt}
@@ -18,7 +18,7 @@ BITCOINQT=${BITCOINQT:-$BINDIR/qt/dash-qt}
 BTCVER=($($BITCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
-# This gets autodetected fine for dashd if --version-string is not set,
+# This gets autodetected fine for amerod if --version-string is not set,
 # but has different outcomes for dash-qt and dash-cli.
 echo "[COPYRIGHT]" > footer.h2m
 $BITCOIND --version | sed -n '1!p' >> footer.h2m
