@@ -20,7 +20,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Amero-Qt (on Mac) or
-amerod/amero-qt (on Linux).
+amerox/amero-qt (on Linux).
 
 Downgrade warning
 -----------------
@@ -78,7 +78,7 @@ New: `assumevalid`, `blocksonly`, `reindex-chainstate`
 
 Experimental: `usehd`, `mnemonic`, `mnemonicpassphrase`, `hdseed`
 
-See `Help -> Command-line options` in Qt wallet or `amerod --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `amerox --help` for more info.
 
 PrivateSend improvements
 ------------------------

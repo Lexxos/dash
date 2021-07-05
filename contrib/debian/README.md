@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package amerod/dash-qt
-for Debian-based Linux systems. If you compile amerod/dash-qt yourself, there are some useful files here.
+This directory contains files used to package amerox/amero-qt
+for Debian-based Linux systems. If you compile amerox/amero-qt yourself, there are some useful files here.
 
-## dash: URI support ##
+## amero: URI support ##
 
 
-dash-qt.desktop  (Gnome / Open Desktop)
+amero-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install dash-qt.desktop
+	sudo desktop-file-install amero-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your dash-qt binary to `/usr/bin`
-and the `../../share/pixmaps/dash128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your amero-qt binary to `/usr/bin`
+and the `../../share/pixmaps/amero128.png` to `/usr/share/pixmaps`
 
-dash-qt.protocol (KDE)
+amero-qt.protocol (KDE)
 

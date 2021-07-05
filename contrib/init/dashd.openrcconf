@@ -1,31 +1,31 @@
-# /etc/conf.d/amerod: config file for /etc/init.d/amerod
+# /etc/conf.d/amerox: config file for /etc/init.d/amerox
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/dashcore/dash.conf"
+#BITCOIND_CONFIGFILE="/etc/amerocore/amero.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/amerod"
+#BITCOIND_PIDDIR="/var/run/amerox"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/amerod.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/amerox.pid"
 
-# Where to write amerod data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/amerod"
+# Where to write amerox data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/amerox"
 
-# User and group to own amerod process
-#BITCOIND_USER="dashcore"
-#BITCOIND_GROUP="dashcore"
+# User and group to own amerox process
+#BITCOIND_USER="amerocore"
+#BITCOIND_GROUP="amerocore"
 
-# Path to amerod executable
-#BITCOIND_BIN="/usr/bin/amerod"
+# Path to amerox executable
+#BITCOIND_BIN="/usr/bin/amerox"
 
-# Nice value to run amerod under
+# Nice value to run amerox under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
 #BITCOIND_OPTS=""
 
-# The timeout in seconds OpenRC will wait for amerod to terminate
+# The timeout in seconds OpenRC will wait for amerox to terminate
 # after a SIGTERM has been raised.
 # Note that this will be mapped as argument to start-stop-daemon's
 # '--retry' option, which means you can specify a retry schedule

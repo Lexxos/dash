@@ -4,7 +4,7 @@
 - [`505542663d`](https://github.com/ameropay/amero/commit/505542663d) Merge #12384: [Docs] Add version footnote to tor.md (#3473)
 - [`124824da41`](https://github.com/ameropay/amero/commit/124824da41) Backport bitcoin#14123 and bitcoin#16720 (#3463)
 - [`ed7d8c883c`](https://github.com/ameropay/amero/commit/ed7d8c883c) Fix autobackup
-- [`cd42171a4f`](https://github.com/ameropay/amero/commit/cd42171a4f) bitcoind -> amerod
+- [`cd42171a4f`](https://github.com/ameropay/amero/commit/cd42171a4f) bitcoind -> amerox
 - [`b1c26d4aae`](https://github.com/ameropay/amero/commit/b1c26d4aae) qt: Disconnect CClientUIInterface from SplashScreen::ConnectWallet
 - [`b0c1406bee`](https://github.com/ameropay/amero/commit/b0c1406bee) End Merge #11851: Add m_ prefix to WalletBatch::m_batch
 - [`1cf961182f`](https://github.com/ameropay/amero/commit/1cf961182f) Update walletdb comment after renaming.
@@ -373,7 +373,7 @@
 - [`e7c27f3b77`](https://github.com/ameropay/amero/commit/e7c27f3b77) Merge #10898: Fix invalid checks (NULL checks after dereference, redundant checks, etc.)
 - [`78c06fa838`](https://github.com/ameropay/amero/commit/78c06fa838) More of bitcoin#10888
 - [`cdf68a9eb8`](https://github.com/ameropay/amero/commit/cdf68a9eb8) Have to prepare the chain manually in blockchain.py
-- [`e031cf4572`](https://github.com/ameropay/amero/commit/e031cf4572) bitcoind->amerod
+- [`e031cf4572`](https://github.com/ameropay/amero/commit/e031cf4572) bitcoind->amerox
 - [`8d2cf6b82e`](https://github.com/ameropay/amero/commit/8d2cf6b82e) assert_raises_jsonrpc -> assert_raises_rpc_error
 - [`fb2cd99f94`](https://github.com/ameropay/amero/commit/fb2cd99f94) Merge #10672: Avoid division by zero in the case of a corrupt estimates file
 - [`df109ec118`](https://github.com/ameropay/amero/commit/df109ec118) Merge #11073: Remove dead store in ecdsa_signature_parse_der_lax.

@@ -21,7 +21,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Amero-Qt (on Mac) or
-amerod/amero-qt (on Linux). If you upgrade after DIP0003 activation you will
+amerox/amero-qt (on Linux). If you upgrade after DIP0003 activation you will
 have to reindex (start with -reindex-chainstate or -reindex) to make sure
 your wallet has all the new data synced.
 
@@ -255,7 +255,7 @@ Few cmd-line options are no longer supported:
 - `instantsenddepth`;
 - `mempoolreplacement`.
 
-See `Help -> Command-line options` in Qt wallet or `amerod --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `amerox --help` for more info.
 
 Lots of refactoring and bug fixes
 ---------------------------------
@@ -599,7 +599,7 @@ See detailed [set of changes](https://github.com/ameropay/amero/compare/v0.12.3.
 - [`0402240a2`](https://github.com/ameropay/amero/commit/0402240a2) Bump CMAKE_CXX_STANDARD to 14 in CMakeLists.txt (#2377)
 - [`3c9237aa4`](https://github.com/ameropay/amero/commit/3c9237aa4) Use VersionBitsState instead of VersionBitsTipState to avoid cs_main lock (#2370)
 - [`c4351fd32`](https://github.com/ameropay/amero/commit/c4351fd32) revert 737, DEFAULT_TRANSACTION_MAXFEE = 0.1 * COIN (#2362)
-- [`1c9ed7806`](https://github.com/ameropay/amero/commit/1c9ed7806) GDB automation with Python script to measure memory usage in amerod (#1609)
+- [`1c9ed7806`](https://github.com/ameropay/amero/commit/1c9ed7806) GDB automation with Python script to measure memory usage in amerox (#1609)
 - [`d998dc13e`](https://github.com/ameropay/amero/commit/d998dc13e) Add cmake to non-mac gitian descriptors (#2360)
 - [`266dd3232`](https://github.com/ameropay/amero/commit/266dd3232) mkdir -p to allow re-start of failed chia build (#2359)
 - [`11a0cbf84`](https://github.com/ameropay/amero/commit/11a0cbf84) InstantSend-related tests refactoring (#2333)

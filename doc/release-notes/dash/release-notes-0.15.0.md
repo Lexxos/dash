@@ -21,7 +21,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Amero-Qt (on Mac) or
-amerod/amero-qt (on Linux). If you upgrade after DIP0003 activation and you were
+amerox/amero-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading from
 version 0.13 should not require any additional actions.
@@ -144,7 +144,7 @@ will print a line that looks like this:
 ```
 2020-01-06 14:41:08 Windows Exception: EXCEPTION_ACCESS_VIOLATION
 No debug information available for stacktrace. You should add debug information and then run:
-amerod.exe -printcrashinfo=bvcgc43iinzgc43ijfxgm3yba....
+amerox.exe -printcrashinfo=bvcgc43iinzgc43ijfxgm3yba....
 ```
 If you encounter such a crash, include these lines when you report the crash and we will be able to debug it
 further. Anyone interested in running the specified `-printcrashinfo` command can do so after copying the debug info
@@ -202,7 +202,7 @@ Few cmd-line options are no longer supported:
 Make sure to check Bitcoin Core 0.15 release notes in a [section](#backports-from-bitcoin-core-015) below
 for more changes in command-line options.
 
-See `Help -> Command-line options` in Qt wallet or `amerod --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `amerox --help` for more info.
 
 Build system
 ------------
