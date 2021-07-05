@@ -97,11 +97,11 @@ class BitcoinTestFramework():
 
         parser = optparse.OptionParser(usage="%prog [options]")
         parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
-                          help="Leave dashds and test.* datadir on exit or error")
+                          help="Leave amerods and test.* datadir on exit or error")
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
-                          help="Don't stop dashds after the test execution")
+                          help="Don't stop amerods after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default=os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + "/../../../src"),
-                          help="Source directory containing dashd/dash-cli (default: %default)")
+                          help="Source directory containing amerod/dash-cli (default: %default)")
         parser.add_option("--cachedir", dest="cachedir", default=os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + "/../../cache"),
                           help="Directory for caching pregenerated datadirs (default: %default)")
         parser.add_option("--tmpdir", dest="tmpdir", help="Root directory for datadirs")
@@ -120,8 +120,8 @@ class BitcoinTestFramework():
                           help="Attach a python debugger if test fails")
         parser.add_option("--usecli", dest="usecli", default=False, action="store_true",
                           help="use dash-cli instead of RPC for all commands")
-        parser.add_option("--dashd-arg", dest="dashd_extra_args", default=[], type='string', action='append',
-                          help="Pass extra args to all dashd instances")
+        parser.add_option("--amerod-arg", dest="amerod_extra_args", default=[], type='string', action='append',
+                          help="Pass extra args to all amerod instances")
         parser.add_option("--timeoutscale", dest="timeout_scale", default=1, type='int' ,
                           help="Scale the test timeouts by multiplying them with the here provided value (defaul: 1)")
         self.add_options(parser)
@@ -144,10 +144,10 @@ class BitcoinTestFramework():
 
         config = configparser.ConfigParser()
         config.read_file(open(self.options.configfile))
-        self.options.bitcoind = os.getenv("BITCOIND", default=config["environment"]["BUILDDIR"] + '/src/dashd' + config["environment"]["EXEEXT"])
+        self.options.bitcoind = os.getenv("BITCOIND", default=config["environment"]["BUILDDIR"] + '/src/amerod' + config["environment"]["EXEEXT"])
         self.options.bitcoincli = os.getenv("BITCOINCLI", default=config["environment"]["BUILDDIR"] + '/src/dash-cli' + config["environment"]["EXEEXT"])
 
-        self.extra_args_from_options = self.options.dashd_extra_args
+        self.extra_args_from_options = self.options.amerod_extra_args
 
         # Set up temp directory and start logging
         if self.options.tmpdir:
@@ -195,7 +195,7 @@ class BitcoinTestFramework():
         else:
             for node in self.nodes:
                 node.cleanup_on_exit = False
-            self.log.info("Note: dashds were not stopped and may still be running")
+            self.log.info("Note: amerods were not stopped and may still be running")
 
         if not self.options.nocleanup and not self.options.noshutdown and success != TestStatus.FAILED:
             self.log.info("Cleaning up {} on exit".format(self.options.tmpdir))
@@ -284,7 +284,7 @@ class BitcoinTestFramework():
             self.nodes.append(TestNode(old_num_nodes + i, get_datadir_path(self.options.tmpdir, old_num_nodes + i), self.extra_args_from_options, chain=self.chain, rpchost=rpchost, timewait=timewait, bitcoind=binary[i], bitcoin_cli=self.options.bitcoincli, stderr=stderr, mocktime=self.mocktime, coverage_dir=self.options.coveragedir, extra_conf=extra_confs[i], extra_args=extra_args[i], use_cli=self.options.usecli))
 
     def start_node(self, i, *args, **kwargs):
-        """Start a dashd"""
+        """Start a amerod"""
 
         node = self.nodes[i]
 
@@ -295,7 +295,7 @@ class BitcoinTestFramework():
             coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def start_nodes(self, extra_args=None, stderr=None, *args, **kwargs):
-        """Start multiple dashds"""
+        """Start multiple amerods"""
 
         if extra_args is None:
             extra_args = [None] * self.num_nodes
@@ -315,12 +315,12 @@ class BitcoinTestFramework():
                 coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def stop_node(self, i, wait=0):
-        """Stop a dashd test node"""
+        """Stop a amerod test node"""
         self.nodes[i].stop_node(wait=wait)
         self.nodes[i].wait_until_stopped()
 
     def stop_nodes(self, wait=0):
-        """Stop multiple dashd test nodes"""
+        """Stop multiple amerod test nodes"""
         for node in self.nodes:
             # Issue RPC to stop nodes
             node.stop_node(wait=wait)
@@ -406,7 +406,7 @@ class BitcoinTestFramework():
         # User can provide log level as a number or string (eg DEBUG). loglevel was caught as a string, so try to convert it to an int
         ll = int(self.options.loglevel) if self.options.loglevel.isdigit() else self.options.loglevel.upper()
         ch.setLevel(ll)
-        # Format logs the same as dashd's debug.log with microprecision (so log files can be concatenated and sorted)
+        # Format logs the same as amerod's debug.log with microprecision (so log files can be concatenated and sorted)
         formatter = logging.Formatter(fmt='%(asctime)s.%(msecs)03d000Z %(name)s (%(levelname)s): %(message)s', datefmt='%Y-%m-%dT%H:%M:%S')
         formatter.converter = time.gmtime
         fh.setFormatter(formatter)
@@ -443,7 +443,7 @@ class BitcoinTestFramework():
                 if os.path.isdir(get_datadir_path(self.options.cachedir, i)):
                     shutil.rmtree(get_datadir_path(self.options.cachedir, i))
 
-            # Create cache directories, run dashds:
+            # Create cache directories, run amerods:
             self.set_genesis_mocktime()
             for i in range(MAX_NODES):
                 datadir = initialize_datadir(self.options.cachedir, i, self.chain)
@@ -1150,9 +1150,9 @@ def skip_if_no_py3_zmq():
 
 
 def skip_if_no_bitcoind_zmq(test_instance):
-    """Skip the running test if dashd has not been compiled with zmq support."""
+    """Skip the running test if amerod has not been compiled with zmq support."""
     config = configparser.ConfigParser()
     config.read_file(open(test_instance.options.configfile))
 
     if not config["components"].getboolean("ENABLE_ZMQ"):
-        raise SkipTest("dashd has not been built with zmq enabled.")
+        raise SkipTest("amerod has not been built with zmq enabled.")

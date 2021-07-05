@@ -1,36 +1,36 @@
 #!/usr/bin/env bash
 #
-#  dashd The Dash Core server.
+#  amerod The Dash Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dashd
-# processname: dashd
+# description: amerod
+# processname: amerod
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dashd, see below
-if [ -f /etc/sysconfig/dashd ]; then
-        . /etc/sysconfig/dashd
+# you can override defaults in /etc/sysconfig/amerod, see below
+if [ -f /etc/sysconfig/amerod ]; then
+        . /etc/sysconfig/amerod
 fi
 
 RETVAL=0
 
-prog=dashd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/dashd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/dashd}
+prog=amerod
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/amerod
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/amerod}
 
-# dashd defaults to /usr/bin/dashd, override with BITCOIND_BIN
-dashd=${BITCOIND_BIN-/usr/bin/dashd}
+# amerod defaults to /usr/bin/amerod, override with BITCOIND_BIN
+amerod=${BITCOIND_BIN-/usr/bin/amerod}
 
-# dashd opts default to -disablewallet, override with BITCOIND_OPTS
-dashd_opts=${BITCOIND_OPTS--disablewallet}
+# amerod opts default to -disablewallet, override with BITCOIND_OPTS
+amerod_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dashd $dashd_opts
+    daemon $DAEMONOPTS $amerod $amerod_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile
