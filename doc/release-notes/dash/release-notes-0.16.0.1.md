@@ -24,7 +24,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Amero-Qt (on Mac) or
-amerod/amero-qt (on Linux). If you upgrade after DIP0003 activation and you were
+amerox/amero-qt (on Linux). If you upgrade after DIP0003 activation and you were
 using version < 0.13 you will have to reindex (start with -reindex-chainstate
 or -reindex) to make sure your wallet has all the new data synced. Upgrading
 from version 0.13 should not require any additional actions.
@@ -338,7 +338,7 @@ There are also new command-line options backported from Bitcoin Core 0.16:
 - `--stdinrpcpass`
 
 Please check Bitcoin Core 0.16 release notes in a [section](#backports-from-bitcoin-core-016)
-below and `Help -> Command-line options` in Qt wallet or `amerod --help` for more information.
+below and `Help -> Command-line options` in Qt wallet or `amerox --help` for more information.
 
 Backports from Bitcoin Core 0.16
 --------------------------------

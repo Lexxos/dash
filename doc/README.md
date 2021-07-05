@@ -12,7 +12,7 @@ The following are some helpful notes on how to run Amero on your native platform
 Unpack the files into a directory and run:
 
 - `bin/amero-qt` (GUI) or
-- `bin/amerod` (headless)
+- `bin/amerox` (headless)
 
 ### Windows
 

@@ -1,23 +1,23 @@
 # It is not recommended to modify this file in-place, because it will
 # be overwritten during package upgrades. If you want to add further
 # options or overwrite existing ones then use
-# $ systemctl edit amerod.service
+# $ systemctl edit amerox.service
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/dash/dash.conf
+# /etc/amero/amero.conf
 
 [Unit]
-Description=Dash daemon
+Description=Amero daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/amerod -daemon -conf=/etc/dash/dash.conf -pid=/run/amerod/amerod.pid
-# Creates /run/dash owned by dashcore
-RuntimeDirectory=amerod
-User=dashcore
+ExecStart=/usr/bin/amerox -daemon -conf=/etc/amero/amero.conf -pid=/run/amerox/amerox.pid
+# Creates /run/amero owned by amerocore
+RuntimeDirectory=amerox
+User=amerocore
 Type=forking
-PIDFile=/run/amerod/amerod.pid
+PIDFile=/run/amerox/amerox.pid
 Restart=on-failure
 
 # Hardening measures

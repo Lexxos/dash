@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: amerod.service
-Upstart: amerod.conf
-OpenRC:  amerod.openrc
-         amerod.openrcconf
-CentOS:  amerod.init
-OS X:    org.dash.amerod.plist
+SystemD: amerox.service
+Upstart: amerox.conf
+OpenRC:  amerox.openrc
+         amerox.openrcconf
+CentOS:  amerox.init
+OS X:    org.amero.amerox.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

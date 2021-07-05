@@ -757,237 +757,237 @@
 - [`09eda9783`](https://github.com/ameropay/amero/commit/09eda9783) Merge #8112: Include signal.h for sig_atomic_t in WIN32
 - [`bad08eadf`](https://github.com/ameropay/amero/commit/bad08eadf) Merge #7960: Only use AddInventoryKnown for transactions
 - [`433a026a1`](https://github.com/ameropay/amero/commit/433a026a1) Fix OpenSSL build error
-- [`91752ab7e`](https://github.com/dashpay/dash/commit/91752ab7e) Merge #7689: Replace OpenSSL AES with ctaes-based version
-- [`83dc1dc99`](https://github.com/dashpay/dash/commit/83dc1dc99) Directly push messages instead of using CDataStream first
-- [`e65bf228b`](https://github.com/dashpay/dash/commit/e65bf228b) Merge #8121: [Doc] Update implemented BIPs list
-- [`dfa0bd234`](https://github.com/dashpay/dash/commit/dfa0bd234) Merge #8080: Do not use mempool for GETDATA for tx accepted after the last mempool req.
-- [`b2a27c062`](https://github.com/dashpay/dash/commit/b2a27c062) Only serve normal transactions from mapRelay
-- [`bef036125`](https://github.com/dashpay/dash/commit/bef036125) Merge #7877: Change mapRelay to store CTransactions
-- [`2dc71e8e0`](https://github.com/dashpay/dash/commit/2dc71e8e0) Revert deadlock fix in ProcessGetData
-- [`d8c5a5900`](https://github.com/dashpay/dash/commit/d8c5a5900) Merge #8090: Adding P2SH(p2pkh) script test case
-- [`34b7fddde`](https://github.com/dashpay/dash/commit/34b7fddde) Dashify benchmarking.md binary name
-- [`475dbd49b`](https://github.com/dashpay/dash/commit/475dbd49b) Pass sys.stdout to Popen instead of subprocess.STDOUT
-- [`a0481f1ed`](https://github.com/dashpay/dash/commit/a0481f1ed) Merge #8750: [qa] Refactor RPCTestHandler to prevent TimeoutExpired
-- [`5496e468a`](https://github.com/dashpay/dash/commit/5496e468a) Dashify a few docs and the use of an address
-- [`5ba21d4e3`](https://github.com/dashpay/dash/commit/5ba21d4e3) Revert "ReprocessBlocks"->"ResetBlockFailureFlags" in debug message
-- [`b1df5e9e8`](https://github.com/dashpay/dash/commit/b1df5e9e8) Align sorting in OverviewPage::SetupTransactionList with transaction view
-- [`abe84cb9e`](https://github.com/dashpay/dash/commit/abe84cb9e) Use GetStrongRandBytes in CMnemonic::Generate
-- [`249167ab8`](https://github.com/dashpay/dash/commit/249167ab8) Python 3 in .travis.yml
-- [`a1111cdf6`](https://github.com/dashpay/dash/commit/a1111cdf6) Dashify addresses/keys in signmessages.py RPC test
-- [`21aaf9289`](https://github.com/dashpay/dash/commit/21aaf9289) Introduce redirect_stderr argument to start_node
-- [`fbe36d3db`](https://github.com/dashpay/dash/commit/fbe36d3db) Pass -createwalletbackups=0 to amerod when running rpc tests
-- [`69dd8f4a6`](https://github.com/dashpay/dash/commit/69dd8f4a6) Python 3 fixes/porting in rpc tests
-- [`2924b3440`](https://github.com/dashpay/dash/commit/2924b3440) Cast command to str when calling show_debug_msg
-- [`6dc4a1385`](https://github.com/dashpay/dash/commit/6dc4a1385) Merge #8110: [Doc] Add benchmarking notes
-- [`a3c63033d`](https://github.com/dashpay/dash/commit/a3c63033d) Merge #8115: Avoid integer division in the benchmark inner-most loop.
-- [`43cbeb7fa`](https://github.com/dashpay/dash/commit/43cbeb7fa) Merge #7891: Always require OS randomness when generating secret keys
-- [`cee571bda`](https://github.com/dashpay/dash/commit/cee571bda) Merge #8107: bench: Added base58 encoding/decoding benchmarks
-- [`a39b1f7b8`](https://github.com/dashpay/dash/commit/a39b1f7b8) Merge #7896: fix typo in help text
-- [`6c962f5e6`](https://github.com/dashpay/dash/commit/6c962f5e6) Merge #8111: Benchmark SipHash
-- [`0027292ac`](https://github.com/dashpay/dash/commit/0027292ac) Merge #8104: Tests: add timeout to sync_blocks() and sync_mempools()
-- [`8d47ecb23`](https://github.com/dashpay/dash/commit/8d47ecb23) Merge #8108: Trivial: Remove unused local variable shadowing upper local
-- [`7db5be442`](https://github.com/dashpay/dash/commit/7db5be442) Merge #8098: [qa] test_framework: Append portseed to tmpdir
-- [`b71ee087a`](https://github.com/dashpay/dash/commit/b71ee087a) Merge #8015: CCoinsViewErrorCatcher raison-d-etre
-- [`9bf698793`](https://github.com/dashpay/dash/commit/9bf698793) Merge #8034: [doc][trivial] Add basic git squash workflow [skip ci]
-- [`640bee181`](https://github.com/dashpay/dash/commit/640bee181) Merge #7795: UpdateTip: log only one line at most per block
-- [`51d17dcde`](https://github.com/dashpay/dash/commit/51d17dcde) Move AutoBackupWallet into wallet.cpp
-- [`8723f9956`](https://github.com/dashpay/dash/commit/8723f9956) Merge #8061: [Wallet] Improve Wallet encapsulation
-- [`c571a9490`](https://github.com/dashpay/dash/commit/c571a9490) Merge #8076: VerifyDB: don't check blocks that have been pruned
-- [`42a3e0d2d`](https://github.com/dashpay/dash/commit/42a3e0d2d) Merge #8063: Acquire lock to check for genesis block.
-- [`00bf61885`](https://github.com/dashpay/dash/commit/00bf61885) Merge #8092: Correct small typo in extract_strings_qt.py
-- [`f50b8bf66`](https://github.com/dashpay/dash/commit/f50b8bf66) Merge #8095: Test framework: only cleanup on successful test runs
-- [`3f5be563f`](https://github.com/dashpay/dash/commit/3f5be563f) Merge #8014: Qt: Sort transactions by date
-- [`62aaaaeac`](https://github.com/dashpay/dash/commit/62aaaaeac) Merge #8047: [qa] test_framework: Set wait-timeout for bitcoind procs
-- [`bcecdcd8e`](https://github.com/dashpay/dash/commit/bcecdcd8e) Merge #8056: [qa] Remove hardcoded "4 nodes" from test_framework
-- [`8eeaa4f21`](https://github.com/dashpay/dash/commit/8eeaa4f21) Fix typo adddrman to addrman as requested in #8070
-- [`1897ccc64`](https://github.com/dashpay/dash/commit/1897ccc64) Merge #8033: Fix Socks5() connect failures to be less noisy and less unnecessarily scary
-- [`0450dfdeb`](https://github.com/dashpay/dash/commit/0450dfdeb) Merge #7932: CAddrMan::Deserialize handle corrupt serializations better.
-- [`72bee9e55`](https://github.com/dashpay/dash/commit/72bee9e55) Merge #8031: improvement to readability
-- [`8b28f5f99`](https://github.com/dashpay/dash/commit/8b28f5f99) Merge #8020: Use SipHash-2-4 for various non-cryptographic hashes
-- [`a0afc3ee0`](https://github.com/dashpay/dash/commit/a0afc3ee0) Merge #8038: [qa, doc] Various minor fixes
-- [`7b2587946`](https://github.com/dashpay/dash/commit/7b2587946) Merge #8059: Remove unneeded feerate param from RelayTransaction/AcceptToMemoryPool.
-- [`26f07f835`](https://github.com/dashpay/dash/commit/26f07f835) Merge #8004: signal handling: fReopenDebugLog and fRequestShutdown should be type sig_atomic_t
-- [`f0fe21d37`](https://github.com/dashpay/dash/commit/f0fe21d37) Merge #8041: [qa] Fix bip9-softforks blockstore issue
-- [`4ee385842`](https://github.com/dashpay/dash/commit/4ee385842) Merge #8039: bench: Add crypto hash benchmarks
-- [`f1996dc8c`](https://github.com/dashpay/dash/commit/f1996dc8c) Merge #7972:  [qa] pull-tester: Run rpc test in parallel
-- [`76b72a7f2`](https://github.com/dashpay/dash/commit/76b72a7f2) Merge #8028: Fix insanity of CWalletDB::WriteTx and CWalletTx::WriteToDisk
-- [`4750be1af`](https://github.com/dashpay/dash/commit/4750be1af) Merge #8036: init: Move berkeleydb version reporting to wallet
-- [`3dbae2d32`](https://github.com/dashpay/dash/commit/3dbae2d32) Merge #8019: Remove state arg from ReconsiderBlock, rename to ResetBlockFailureFlags
-- [`262e857db`](https://github.com/dashpay/dash/commit/262e857db) Merge #8012: Qt: Delay user confirmation of send
-- [`8bafa06b7`](https://github.com/dashpay/dash/commit/8bafa06b7) Merge #7971: [qa] Refactor test_framework and pull tester
-- [`24ff34102`](https://github.com/dashpay/dash/commit/24ff34102) Merge #8018: Autofind rpc tests --srcdir
-- [`19a6c779e`](https://github.com/dashpay/dash/commit/19a6c779e) Merge #8030: test: Revert fatal-ness of missing python-zmq
-- [`3d665aa48`](https://github.com/dashpay/dash/commit/3d665aa48) Use fThread = true default argument in CAlert::Notify
-- [`3110f7ebd`](https://github.com/dashpay/dash/commit/3110f7ebd) Fix issues introduced in 1770 (#1803)
-- [`5222e9377`](https://github.com/dashpay/dash/commit/5222e9377) Merge #7976: Remove obsolete reference to CValidationState from UpdateCoins.
-- [`93be53e34`](https://github.com/dashpay/dash/commit/93be53e34) Merge #7934: Improve rolling bloom filter performance and benchmark
-- [`65a71dcb2`](https://github.com/dashpay/dash/commit/65a71dcb2) Merge #8009: Docs: Fixed invalid example paths in gitian-building.md
-- [`19af9cfe1`](https://github.com/dashpay/dash/commit/19af9cfe1) Merge #8013: doc: Fedora build requirements, add gcc-c++ and fix typo
-- [`25147c9dc`](https://github.com/dashpay/dash/commit/25147c9dc) Merge #7814: [qa] Switch to py3
-- [`c66fcf47e`](https://github.com/dashpay/dash/commit/c66fcf47e) Merge #8011: don't run ThreadMessageHandler at lowered priority
-- [`d4b8abf4f`](https://github.com/dashpay/dash/commit/d4b8abf4f) Send non-tx/non-block inventory items
-- [`5d8e94a26`](https://github.com/dashpay/dash/commit/5d8e94a26) Merge #7840: Several performance and privacy improvements to inv/mempool handling
-- [`33233409a`](https://github.com/dashpay/dash/commit/33233409a) Merge #7966: http: Do a pending c++11 simplification handling work items
-- [`90b00cfc6`](https://github.com/dashpay/dash/commit/90b00cfc6) Merge #7953: Create signmessagewithprivkey rpc
-- [`233493b71`](https://github.com/dashpay/dash/commit/233493b71) Delete old "dash" registry key when installing/uninstalling
-- [`b78bd5cc7`](https://github.com/dashpay/dash/commit/b78bd5cc7) Dashify help text of fundrawtransaction
-- [`da2de0771`](https://github.com/dashpay/dash/commit/da2de0771) Put ps_rounds to the bottom of the result of listunspent
-- [`15fc7f213`](https://github.com/dashpay/dash/commit/15fc7f213) De-bump fees in miner_tests.cpp
-- [`7d4046186`](https://github.com/dashpay/dash/commit/7d4046186) Fix failing fundrawtransaction tests
-- [`2c63839f2`](https://github.com/dashpay/dash/commit/2c63839f2) Dashify fundrawtransaction exception
-- [`f8ad2ffa7`](https://github.com/dashpay/dash/commit/f8ad2ffa7) Merge #7977: [trivial] Add missing const qualifiers.
-- [`e6b2f918d`](https://github.com/dashpay/dash/commit/e6b2f918d) Merge #7968: doc: Fedora build requirements
-- [`79fe8e45f`](https://github.com/dashpay/dash/commit/79fe8e45f) Merge #8002: [depends] Add -stdlib=libc++ to darwin CXX flags
-- [`d55b78eb6`](https://github.com/dashpay/dash/commit/d55b78eb6) Merge #8000: tinyformat: force USE_VARIADIC_TEMPLATES
-- [`49c3127b5`](https://github.com/dashpay/dash/commit/49c3127b5) Merge #7974: More comments on the design of AttemptToEvictConnection.
-- [`9bed9ac9f`](https://github.com/dashpay/dash/commit/9bed9ac9f) Merge #7975: [doc] Update bitcoin-core GitHub links
-- [`6662e23a0`](https://github.com/dashpay/dash/commit/6662e23a0) Merge #7982: build: No need to check for leveldb atomics
-- [`7c6dab037`](https://github.com/dashpay/dash/commit/7c6dab037) Return from main instead of calling exit()
-- [`a468803bd`](https://github.com/dashpay/dash/commit/a468803bd) Merge #7964: Minor changes for c++11 consistency
-- [`d97501316`](https://github.com/dashpay/dash/commit/d97501316) Merge #7807: Fixed miner test values, gave constants for less error-prone values.
-- [`61227bb21`](https://github.com/dashpay/dash/commit/61227bb21) Merge #7962: CalculateNextWorkRequired Cleanup
-- [`03507a720`](https://github.com/dashpay/dash/commit/03507a720) Merge #7952: Log invalid block hash to make debugging easier.
-- [`c8bb792f4`](https://github.com/dashpay/dash/commit/c8bb792f4) Merge #7939: qt: Make it possible to show details for multiple transactions
-- [`d69bcb1a0`](https://github.com/dashpay/dash/commit/d69bcb1a0) Merge #7941: Fixing comment in script_test.json test case
-- [`7973142f1`](https://github.com/dashpay/dash/commit/7973142f1) Reformat listunstpent help to align with upstream
-- [`5cf744532`](https://github.com/dashpay/dash/commit/5cf744532) Merge #7916: Explicitly pass CChainParams& to DisconnectTip()
-- [`a60c35182`](https://github.com/dashpay/dash/commit/a60c35182) Error/Warning fixes for HD wallet part in wallet.cpp
-- [`bacc86464`](https://github.com/dashpay/dash/commit/bacc86464) Merge #7787: [Moveonly] Create ui_interface.cpp
-- [`c3e590968`](https://github.com/dashpay/dash/commit/c3e590968) Add missing parts from bitcoin PR #7762
-- [`8678f2b39`](https://github.com/dashpay/dash/commit/8678f2b39) Merge #7905: test: move accounting_tests and rpc_wallet_tests to wallet/test
-- [`4f5bb798e`](https://github.com/dashpay/dash/commit/4f5bb798e) Merge #7827: Speed up getchaintips.
-- [`1b17e94ee`](https://github.com/dashpay/dash/commit/1b17e94ee) Merge #7900: fix spelling mistake
-- [`96f9a7c3e`](https://github.com/dashpay/dash/commit/96f9a7c3e) Merge #7897: add missing newline
-- [`cfb8b82dc`](https://github.com/dashpay/dash/commit/cfb8b82dc) Merge #7848: Divergence between 32- and 64-bit when hashing >4GB affects `gettxoutsetinfo`
-- [`c172273e4`](https://github.com/dashpay/dash/commit/c172273e4) Dashify new binary name variables
-- [`9bd55b1bf`](https://github.com/dashpay/dash/commit/9bd55b1bf) Merge #7603: Build System: Use PACKAGE_TARNAME in NSIS script
-- [`6c7d13380`](https://github.com/dashpay/dash/commit/6c7d13380) Merge #7518: Add multiple options to fundrawtransaction
-- [`f1197476a`](https://github.com/dashpay/dash/commit/f1197476a) Merge #7870: [contrib] Add MarcoFalke key and move all keys to contrib/gitian-keys
-- [`24f8c248f`](https://github.com/dashpay/dash/commit/24f8c248f) Merge #7856: Only send one GetAddr response per connection.
-- [`b2eabb097`](https://github.com/dashpay/dash/commit/b2eabb097) Merge #7809: depends: some base fixes/changes
-- [`60159eb2f`](https://github.com/dashpay/dash/commit/60159eb2f) Merge #7798: [travis] Print the commit which was evaluated
-- [`d532f22d3`](https://github.com/dashpay/dash/commit/d532f22d3) Use BIP32_EXTKEY_SIZE instead of fixed constant
-- [`7080c27dd`](https://github.com/dashpay/dash/commit/7080c27dd) Merge #7878: [test] bctest.py: Revert faa41ee
-- [`ac53190bf`](https://github.com/dashpay/dash/commit/ac53190bf) Add missing changes from Bitcoin #7853
-- [`c176f6c5b`](https://github.com/dashpay/dash/commit/c176f6c5b) Merge #7812: Tiny refactor of `IsRBFOptIn`, avoid exception
-- [`f1f3fa327`](https://github.com/dashpay/dash/commit/f1f3fa327) Merge #7846: Clean up lockorder data of destroyed mutexes
-- [`116b14b5f`](https://github.com/dashpay/dash/commit/116b14b5f) Merge #7849: tests: add varints_bitpatterns test
-- [`1ac85586c`](https://github.com/dashpay/dash/commit/1ac85586c) Merge #7847: doc: add arch linux build example
-- [`cc3a06bf5`](https://github.com/dashpay/dash/commit/cc3a06bf5) Merge #7863: getblockchaininfo: make bip9_softforks an object, not an array.
-- [`5b1ad12d1`](https://github.com/dashpay/dash/commit/5b1ad12d1) Merge #7855: [doc] gitian: Replace precise with trusty
-- [`20cb9aa21`](https://github.com/dashpay/dash/commit/20cb9aa21) Merge #7796: [amount] Add support for negative fee rates
-- [`e48f46c80`](https://github.com/dashpay/dash/commit/e48f46c80) Merge #7838: [Doc] Update gitian build guide to debian 8.4.0
-- [`d983f1d78`](https://github.com/dashpay/dash/commit/d983f1d78) Merge #7828: Trivial: Globals: Explicitly pass const CChainParams& to ProcessMessage()
-- [`2a7971010`](https://github.com/dashpay/dash/commit/2a7971010) Merge #7786: Doc: Update isStandardTx comment
-- [`b2d659f19`](https://github.com/dashpay/dash/commit/b2d659f19) Merge #7570: Net: Add IPv6 Link-Local Address Support
-- [`a8aeff143`](https://github.com/dashpay/dash/commit/a8aeff143) Merge #7801: [qa] Remove misleading "errorString syntax"
-- [`738e1c51c`](https://github.com/dashpay/dash/commit/738e1c51c) Merge #7793: [doxygen] Fix member comments
-- [`1f8ca7546`](https://github.com/dashpay/dash/commit/1f8ca7546) depends: mac deploy Py3 compatibility
-- [`e5b82075a`](https://github.com/dashpay/dash/commit/e5b82075a) Fix no-wallet build after backports refactored RPCs
-- [`f235b6a6a`](https://github.com/dashpay/dash/commit/f235b6a6a) Apply review suggestions/fixes
-- [`6a515e5e2`](https://github.com/dashpay/dash/commit/6a515e5e2) Merge #7788: Use relative paths instead of absolute paths in protoc calls
-- [`d5f1b5ae8`](https://github.com/dashpay/dash/commit/d5f1b5ae8) Merge #7791: Doc: change Precise to Trusty in gitian-building.md
-- [`e7d9ffa5d`](https://github.com/dashpay/dash/commit/e7d9ffa5d) Merge #7774: RPC: add versionHex in getblock and getblockheader JSON results
-- [`1cd653cc5`](https://github.com/dashpay/dash/commit/1cd653cc5) Merge #7781: devtools: Auto-set branch to merge to in github-merge
-- [`c86717a59`](https://github.com/dashpay/dash/commit/c86717a59) Merge #7813: [doc] Update port in tor.md
-- [`7ba8612b5`](https://github.com/dashpay/dash/commit/7ba8612b5) Merge #7797: RPC: fix generatetoaddress failing to parse address
-- [`a7514a8e6`](https://github.com/dashpay/dash/commit/a7514a8e6) Merge #7789: [Doc] Add note about using the Qt official binary installer.
-- [`9dbda86cb`](https://github.com/dashpay/dash/commit/9dbda86cb) HDWallet error/warning message fixes
-- [`298224b3b`](https://github.com/dashpay/dash/commit/298224b3b) Merge #7691: [Wallet] refactor wallet/init interaction
-- [`a5505e7e8`](https://github.com/dashpay/dash/commit/a5505e7e8) Merge #7711: [build-aux] Update Boost & check macros to latest serials
-- [`21b23d1ec`](https://github.com/dashpay/dash/commit/21b23d1ec) Merge #7785: Trivial: Fix typo: Optimizaton -> Optimization [skip ci]
-- [`960cb014d`](https://github.com/dashpay/dash/commit/960cb014d) Merge #7477: Fix quoting of copyright holders in configure.ac.
-- [`0956f3d67`](https://github.com/dashpay/dash/commit/0956f3d67) Merge #7763: Put hex-encoded version in UpdateTip
-- [`644240157`](https://github.com/dashpay/dash/commit/644240157) Merge #7766: rpc: Register calls where they are defined
-- [`18da34e29`](https://github.com/dashpay/dash/commit/18da34e29) Merge #7761: [Qt] remove trailing output-index from transaction-id
-- [`1c8441778`](https://github.com/dashpay/dash/commit/1c8441778) Merge #7573: P2P: add maxtimeadjustment command line option
-- [`a9a209f58`](https://github.com/dashpay/dash/commit/a9a209f58) Merge #7723: build: python 3 compatibility
-- [`ba65eb1ac`](https://github.com/dashpay/dash/commit/ba65eb1ac) Merge #7764: [qa] Don't run pruning.py twice
-- [`a309bf372`](https://github.com/dashpay/dash/commit/a309bf372) Clear setInternalKeyPool and setExternalKeyPool instead of setKeyPool
-- [`e2fefa539`](https://github.com/dashpay/dash/commit/e2fefa539) Merge #7558: [RPC] Add import/removeprunedfunds rpc call
-- [`ca33635ef`](https://github.com/dashpay/dash/commit/ca33635ef) Merge #7742: [Wallet][RPC] add missing abandon status documentation
-- [`34701da5c`](https://github.com/dashpay/dash/commit/34701da5c) Merge #7737: devtools: make github-merge.py use py3
-- [`a4911c383`](https://github.com/dashpay/dash/commit/a4911c383) Merge #7646: Fix lockunspent help message
-- [`f933c6726`](https://github.com/dashpay/dash/commit/f933c6726) Merge #7715: Fix calculation of balances and available coins.
-- [`760d58e3d`](https://github.com/dashpay/dash/commit/760d58e3d) Merge #7671: [RPC] Add generatetoaddress rpc to mine to an address
-- [`953aeead1`](https://github.com/dashpay/dash/commit/953aeead1) Merge #7710: [Depends] Bump miniupnpc and config.guess+sub
-- [`74fe8fe59`](https://github.com/dashpay/dash/commit/74fe8fe59) Merge #7649: Prevent multiple calls to CWallet::AvailableCoins
-- [`aa584522d`](https://github.com/dashpay/dash/commit/aa584522d) Dash related changes for feefilter
-- [`11ac70af9`](https://github.com/dashpay/dash/commit/11ac70af9) Merge #7542: Implement "feefilter" P2P message
-- [`283922243`](https://github.com/dashpay/dash/commit/283922243) Merge #7726: Correct importaddress help reference to importpubkey
-- [`04bf554ab`](https://github.com/dashpay/dash/commit/04bf554ab) Merge #7712: Improve COutPoint less operator
-- [`f4d30a645`](https://github.com/dashpay/dash/commit/f4d30a645) Merge #7708: De-neuter NODE_BLOOM
-- [`8fde2fd5f`](https://github.com/dashpay/dash/commit/8fde2fd5f) Merge #7705: [amount] Add tests and make GetFee() monotonic
-- [`721171ee3`](https://github.com/dashpay/dash/commit/721171ee3) Merge #7686: [qt] Remove 0-fee from send dialog
-- [`29d263389`](https://github.com/dashpay/dash/commit/29d263389) Merge #7594: Mempool: Add tracking of ancestor packages
-- [`49a8ed6d3`](https://github.com/dashpay/dash/commit/49a8ed6d3) Merge #7683: Fix torcontrol.cpp unused private field warning
-- [`abbbe61d0`](https://github.com/dashpay/dash/commit/abbbe61d0) Merge #7608: [wallet] Move hardcoded file name out of log messages
-- [`5f9bfa0b6`](https://github.com/dashpay/dash/commit/5f9bfa0b6) Merge #7670: use cached block hash in blockToJSON()
-- [`fb4ec255c`](https://github.com/dashpay/dash/commit/fb4ec255c) Merge #7663: Make the generate RPC call function for non-regtest
-- [`fa0341115`](https://github.com/dashpay/dash/commit/fa0341115) Merge #7507: Remove internal miner
-- [`332fbfc0e`](https://github.com/dashpay/dash/commit/332fbfc0e) HDWallet fixes after moving wallet initialization
-- [`b3525b2e6`](https://github.com/dashpay/dash/commit/b3525b2e6) Merge #7577: [Wallet] move "load wallet phase" to CWallet
-- [`8be396a3b`](https://github.com/dashpay/dash/commit/8be396a3b) Merge #7667: Move GetTempPath() to testutil
-- [`f1e95e358`](https://github.com/dashpay/dash/commit/f1e95e358) Merge #7635: [Documentation] Add dependency info to test docs
-- [`51c6ab20f`](https://github.com/dashpay/dash/commit/51c6ab20f) Merge #7576: [Wallet] move wallet help string creation to CWallet
-- [`24cf36972`](https://github.com/dashpay/dash/commit/24cf36972) Merge #7592: mempool: Re-remove ERROR logging for mempool rejects
-- [`23eeaeef8`](https://github.com/dashpay/dash/commit/23eeaeef8) Merge #7662: remove unused NOBLKS_VERSION_{START,END} constants
-- [`00d42b7c9`](https://github.com/dashpay/dash/commit/00d42b7c9) Merge #7539: Add tags to mempool's mapTx indices
-- [`d6a0de72a`](https://github.com/dashpay/dash/commit/d6a0de72a) fix splashscreen (shrink titleCopyrightVSpace)
-- [`af5aece96`](https://github.com/dashpay/dash/commit/af5aece96) make CopyrightHolders more generic
-- [`4e0bb527d`](https://github.com/dashpay/dash/commit/4e0bb527d) Merge #8373: Fix OSX non-deterministic dmg
-- [`51ca0d5b4`](https://github.com/dashpay/dash/commit/51ca0d5b4) Move privatesend to rpcwallet.cpp as well after Bitcoin #7307 was backported
-- [`02785c858`](https://github.com/dashpay/dash/commit/02785c858) Disable check-doc.py for now until all backported PRs are merged and docs fixed
-- [`48eddeea2`](https://github.com/dashpay/dash/commit/48eddeea2) Merge #7455: [travis] Exit early when check-doc.py fails
-- [`07338feae`](https://github.com/dashpay/dash/commit/07338feae) Merge #7620: [travis] Only run check-doc.py once
-- [`266520ced`](https://github.com/dashpay/dash/commit/266520ced) Merge #7632: Delete outdated test-patches reference
-- [`eed9428d2`](https://github.com/dashpay/dash/commit/eed9428d2) Merge #7616:  [depends] Delete unused patches
-- [`74eda8759`](https://github.com/dashpay/dash/commit/74eda8759) Merge #7537: wallet: Warn on unexpected EOF while salvaging wallet
-- [`5390a1a0a`](https://github.com/dashpay/dash/commit/5390a1a0a) Merge #7590: Improving wording related to Boost library requirements [updated]
-- [`f0300c6c5`](https://github.com/dashpay/dash/commit/f0300c6c5) Merge #7606: [depends] builders: No need to set -L and --location for curl
-- [`a890c7616`](https://github.com/dashpay/dash/commit/a890c7616) Merge #7612: [doc] Typo fix
-- [`984dc5271`](https://github.com/dashpay/dash/commit/984dc5271) Merge #7619: Add missing sudo entry in gitian VM setup.
-- [`6a121275d`](https://github.com/dashpay/dash/commit/6a121275d) Merge #7583: [doc] Fix typos
-- [`97c7da4b7`](https://github.com/dashpay/dash/commit/97c7da4b7) Merge #7509: Common argument defaults for NODE_BLOOM stuff and -wallet
-- [`ee5f8d211`](https://github.com/dashpay/dash/commit/ee5f8d211) Merge #7536: test: test leading spaces for ParseHex
-- [`cd7a2e2b5`](https://github.com/dashpay/dash/commit/cd7a2e2b5) Merge #7504: Crystal clean make clean
-- [`529e8ad63`](https://github.com/dashpay/dash/commit/529e8ad63) Merge #7528: autogen.sh: warn about needing autoconf if autoreconf is not found
-- [`de91ef95f`](https://github.com/dashpay/dash/commit/de91ef95f) Merge #7490: tests: Remove May15 test
-- [`7ec1e1887`](https://github.com/dashpay/dash/commit/7ec1e1887) Merge #7459: Consensus: Decouple pow.o from util.o
-- [`8874b2e0f`](https://github.com/dashpay/dash/commit/8874b2e0f) Merge #6480: include the chaintip blockindex in the SyncTransaction signal, add signal UpdateTip()
-- [`a3d1e5eda`](https://github.com/dashpay/dash/commit/a3d1e5eda) Merge #7070: Move maxTxFee out of mempool
-- [`e7a6f79e5`](https://github.com/dashpay/dash/commit/e7a6f79e5) Merge #7192: Unify product name to as few places as possible
-- [`0f8ce5688`](https://github.com/dashpay/dash/commit/0f8ce5688) Merge #7444: Improve block validity/ConnectBlock() comments
-- [`bcbd2cda2`](https://github.com/dashpay/dash/commit/bcbd2cda2) Merge #7091: Consensus build package
-- [`0afbd1c3d`](https://github.com/dashpay/dash/commit/0afbd1c3d) Merge #7084: mempool: Replace maxFeeRate of 10000*minRelayTxFee with maxTxFee
-- [`a65f7b7a7`](https://github.com/dashpay/dash/commit/a65f7b7a7) Merge #7311: MOVEONLY: Move non-consensus functions out of pow
-- [`c8e04d43f`](https://github.com/dashpay/dash/commit/c8e04d43f) Add missing comment in net.cpp
-- [`5f68e06a0`](https://github.com/dashpay/dash/commit/5f68e06a0) Add missing whitelistalwaysrelay arg to SET_DOC_OPTIONAL
-- [`6789bf6e1`](https://github.com/dashpay/dash/commit/6789bf6e1) Merge #7287: Consensus: Remove calls to error() and FormatStateMessage()
-- [`3cd83db0d`](https://github.com/dashpay/dash/commit/3cd83db0d) Merge #7441: Use Debian 8.3 in gitian build guide
-- [`c5f84c4e6`](https://github.com/dashpay/dash/commit/c5f84c4e6) Merge #6842: limitfreerelay edge case bugfix
-- [`6c5286aad`](https://github.com/dashpay/dash/commit/6c5286aad) Merge #7423: doc: add example for building with constrained resources
-- [`2fd5d93a9`](https://github.com/dashpay/dash/commit/2fd5d93a9) Merge #7437: GUI: Disable tab navigation for peers tables.
-- [`b277eed58`](https://github.com/dashpay/dash/commit/b277eed58) Merge #7425: devtools: Fix utf-8 support in messages for github-merge
-- [`5323a08af`](https://github.com/dashpay/dash/commit/5323a08af) Merge #7300: [trivial] Add missing copyright headers
-- [`577f683c5`](https://github.com/dashpay/dash/commit/577f683c5) Merge #7402: [devtools] github-merge get toplevel dir without extra whitespace
-- [`d9d9e95e4`](https://github.com/dashpay/dash/commit/d9d9e95e4) Merge #7395: devtools: show pull and commit information in github-merge
-- [`85919332d`](https://github.com/dashpay/dash/commit/85919332d) Merge #7236: Use createrawtx locktime parm in txn_clone
-- [`643181fe1`](https://github.com/dashpay/dash/commit/643181fe1) Merge #7262: Reduce inefficiency of GetAccountAddress()
-- [`43700eef3`](https://github.com/dashpay/dash/commit/43700eef3) Merge #7383: [Qt] rename "amount" to "requested amount" in receive coins table
-- [`59db2fda1`](https://github.com/dashpay/dash/commit/59db2fda1) Merge #7183: Improved readability of ApproximateBestSubset
-- [`78ad32d10`](https://github.com/dashpay/dash/commit/78ad32d10) Merge #7307: [RPC, Wallet] Move RPC dispatch table registration to wallet/ code
-- [`3be77849d`](https://github.com/dashpay/dash/commit/3be77849d) Merge pull request #7378
-- [`42997ee8d`](https://github.com/dashpay/dash/commit/42997ee8d) Merge pull request #7280
-- [`2474fd0ae`](https://github.com/dashpay/dash/commit/2474fd0ae) Merge pull request #7208
-- [`723eacf45`](https://github.com/dashpay/dash/commit/723eacf45) Merge pull request #7290
-- [`25ba3aba1`](https://github.com/dashpay/dash/commit/25ba3aba1) Merge pull request #7304
-- [`38080259b`](https://github.com/dashpay/dash/commit/38080259b) Merge pull request #7313
-- [`26a5dfe33`](https://github.com/dashpay/dash/commit/26a5dfe33) Merge pull request #7326
-- [`5ca9b1a9c`](https://github.com/dashpay/dash/commit/5ca9b1a9c) Merge pull request #7317
-- [`bcebc7c4c`](https://github.com/dashpay/dash/commit/bcebc7c4c) Merge pull request #7266
-- [`f04f8c19d`](https://github.com/dashpay/dash/commit/f04f8c19d) Merge pull request #7257
-- [`3f6d6572f`](https://github.com/dashpay/dash/commit/3f6d6572f) Merge pull request #7156
-- [`bf688abce`](https://github.com/dashpay/dash/commit/bf688abce) Merge pull request #7113
-- [`f1da40c87`](https://github.com/dashpay/dash/commit/f1da40c87) Merge #7550: rpc: Input-from-stdin mode for bitcoin-cli
-- [`f8407083c`](https://github.com/dashpay/dash/commit/f8407083c) Remove duplicated CCACHE= line in depends/config.site.in
+- [`91752ab7e`](https://github.com/ameropay/amero/commit/91752ab7e) Merge #7689: Replace OpenSSL AES with ctaes-based version
+- [`83dc1dc99`](https://github.com/ameropay/amero/commit/83dc1dc99) Directly push messages instead of using CDataStream first
+- [`e65bf228b`](https://github.com/ameropay/amero/commit/e65bf228b) Merge #8121: [Doc] Update implemented BIPs list
+- [`dfa0bd234`](https://github.com/ameropay/amero/commit/dfa0bd234) Merge #8080: Do not use mempool for GETDATA for tx accepted after the last mempool req.
+- [`b2a27c062`](https://github.com/ameropay/amero/commit/b2a27c062) Only serve normal transactions from mapRelay
+- [`bef036125`](https://github.com/ameropay/amero/commit/bef036125) Merge #7877: Change mapRelay to store CTransactions
+- [`2dc71e8e0`](https://github.com/ameropay/amero/commit/2dc71e8e0) Revert deadlock fix in ProcessGetData
+- [`d8c5a5900`](https://github.com/ameropay/amero/commit/d8c5a5900) Merge #8090: Adding P2SH(p2pkh) script test case
+- [`34b7fddde`](https://github.com/ameropay/amero/commit/34b7fddde) Ameroify benchmarking.md binary name
+- [`475dbd49b`](https://github.com/ameropay/amero/commit/475dbd49b) Pass sys.stdout to Popen instead of subprocess.STDOUT
+- [`a0481f1ed`](https://github.com/ameropay/amero/commit/a0481f1ed) Merge #8750: [qa] Refactor RPCTestHandler to prevent TimeoutExpired
+- [`5496e468a`](https://github.com/ameropay/amero/commit/5496e468a) Ameroify a few docs and the use of an address
+- [`5ba21d4e3`](https://github.com/ameropay/amero/commit/5ba21d4e3) Revert "ReprocessBlocks"->"ResetBlockFailureFlags" in debug message
+- [`b1df5e9e8`](https://github.com/ameropay/amero/commit/b1df5e9e8) Align sorting in OverviewPage::SetupTransactionList with transaction view
+- [`abe84cb9e`](https://github.com/ameropay/amero/commit/abe84cb9e) Use GetStrongRandBytes in CMnemonic::Generate
+- [`249167ab8`](https://github.com/ameropay/amero/commit/249167ab8) Python 3 in .travis.yml
+- [`a1111cdf6`](https://github.com/ameropay/amero/commit/a1111cdf6) Ameroify addresses/keys in signmessages.py RPC test
+- [`21aaf9289`](https://github.com/ameropay/amero/commit/21aaf9289) Introduce redirect_stderr argument to start_node
+- [`fbe36d3db`](https://github.com/ameropay/amero/commit/fbe36d3db) Pass -createwalletbackups=0 to amerox when running rpc tests
+- [`69dd8f4a6`](https://github.com/ameropay/amero/commit/69dd8f4a6) Python 3 fixes/porting in rpc tests
+- [`2924b3440`](https://github.com/ameropay/amero/commit/2924b3440) Cast command to str when calling show_debug_msg
+- [`6dc4a1385`](https://github.com/ameropay/amero/commit/6dc4a1385) Merge #8110: [Doc] Add benchmarking notes
+- [`a3c63033d`](https://github.com/ameropay/amero/commit/a3c63033d) Merge #8115: Avoid integer division in the benchmark inner-most loop.
+- [`43cbeb7fa`](https://github.com/ameropay/amero/commit/43cbeb7fa) Merge #7891: Always require OS randomness when generating secret keys
+- [`cee571bda`](https://github.com/ameropay/amero/commit/cee571bda) Merge #8107: bench: Added base58 encoding/decoding benchmarks
+- [`a39b1f7b8`](https://github.com/ameropay/amero/commit/a39b1f7b8) Merge #7896: fix typo in help text
+- [`6c962f5e6`](https://github.com/ameropay/amero/commit/6c962f5e6) Merge #8111: Benchmark SipHash
+- [`0027292ac`](https://github.com/ameropay/amero/commit/0027292ac) Merge #8104: Tests: add timeout to sync_blocks() and sync_mempools()
+- [`8d47ecb23`](https://github.com/ameropay/amero/commit/8d47ecb23) Merge #8108: Trivial: Remove unused local variable shadowing upper local
+- [`7db5be442`](https://github.com/ameropay/amero/commit/7db5be442) Merge #8098: [qa] test_framework: Append portseed to tmpdir
+- [`b71ee087a`](https://github.com/ameropay/amero/commit/b71ee087a) Merge #8015: CCoinsViewErrorCatcher raison-d-etre
+- [`9bf698793`](https://github.com/ameropay/amero/commit/9bf698793) Merge #8034: [doc][trivial] Add basic git squash workflow [skip ci]
+- [`640bee181`](https://github.com/ameropay/amero/commit/640bee181) Merge #7795: UpdateTip: log only one line at most per block
+- [`51d17dcde`](https://github.com/ameropay/amero/commit/51d17dcde) Move AutoBackupWallet into wallet.cpp
+- [`8723f9956`](https://github.com/ameropay/amero/commit/8723f9956) Merge #8061: [Wallet] Improve Wallet encapsulation
+- [`c571a9490`](https://github.com/ameropay/amero/commit/c571a9490) Merge #8076: VerifyDB: don't check blocks that have been pruned
+- [`42a3e0d2d`](https://github.com/ameropay/amero/commit/42a3e0d2d) Merge #8063: Acquire lock to check for genesis block.
+- [`00bf61885`](https://github.com/ameropay/amero/commit/00bf61885) Merge #8092: Correct small typo in extract_strings_qt.py
+- [`f50b8bf66`](https://github.com/ameropay/amero/commit/f50b8bf66) Merge #8095: Test framework: only cleanup on successful test runs
+- [`3f5be563f`](https://github.com/ameropay/amero/commit/3f5be563f) Merge #8014: Qt: Sort transactions by date
+- [`62aaaaeac`](https://github.com/ameropay/amero/commit/62aaaaeac) Merge #8047: [qa] test_framework: Set wait-timeout for bitcoind procs
+- [`bcecdcd8e`](https://github.com/ameropay/amero/commit/bcecdcd8e) Merge #8056: [qa] Remove hardcoded "4 nodes" from test_framework
+- [`8eeaa4f21`](https://github.com/ameropay/amero/commit/8eeaa4f21) Fix typo adddrman to addrman as requested in #8070
+- [`1897ccc64`](https://github.com/ameropay/amero/commit/1897ccc64) Merge #8033: Fix Socks5() connect failures to be less noisy and less unnecessarily scary
+- [`0450dfdeb`](https://github.com/ameropay/amero/commit/0450dfdeb) Merge #7932: CAddrMan::Deserialize handle corrupt serializations better.
+- [`72bee9e55`](https://github.com/ameropay/amero/commit/72bee9e55) Merge #8031: improvement to readability
+- [`8b28f5f99`](https://github.com/ameropay/amero/commit/8b28f5f99) Merge #8020: Use SipHash-2-4 for various non-cryptographic hashes
+- [`a0afc3ee0`](https://github.com/ameropay/amero/commit/a0afc3ee0) Merge #8038: [qa, doc] Various minor fixes
+- [`7b2587946`](https://github.com/ameropay/amero/commit/7b2587946) Merge #8059: Remove unneeded feerate param from RelayTransaction/AcceptToMemoryPool.
+- [`26f07f835`](https://github.com/ameropay/amero/commit/26f07f835) Merge #8004: signal handling: fReopenDebugLog and fRequestShutdown should be type sig_atomic_t
+- [`f0fe21d37`](https://github.com/ameropay/amero/commit/f0fe21d37) Merge #8041: [qa] Fix bip9-softforks blockstore issue
+- [`4ee385842`](https://github.com/ameropay/amero/commit/4ee385842) Merge #8039: bench: Add crypto hash benchmarks
+- [`f1996dc8c`](https://github.com/ameropay/amero/commit/f1996dc8c) Merge #7972:  [qa] pull-tester: Run rpc test in parallel
+- [`76b72a7f2`](https://github.com/ameropay/amero/commit/76b72a7f2) Merge #8028: Fix insanity of CWalletDB::WriteTx and CWalletTx::WriteToDisk
+- [`4750be1af`](https://github.com/ameropay/amero/commit/4750be1af) Merge #8036: init: Move berkeleydb version reporting to wallet
+- [`3dbae2d32`](https://github.com/ameropay/amero/commit/3dbae2d32) Merge #8019: Remove state arg from ReconsiderBlock, rename to ResetBlockFailureFlags
+- [`262e857db`](https://github.com/ameropay/amero/commit/262e857db) Merge #8012: Qt: Delay user confirmation of send
+- [`8bafa06b7`](https://github.com/ameropay/amero/commit/8bafa06b7) Merge #7971: [qa] Refactor test_framework and pull tester
+- [`24ff34102`](https://github.com/ameropay/amero/commit/24ff34102) Merge #8018: Autofind rpc tests --srcdir
+- [`19a6c779e`](https://github.com/ameropay/amero/commit/19a6c779e) Merge #8030: test: Revert fatal-ness of missing python-zmq
+- [`3d665aa48`](https://github.com/ameropay/amero/commit/3d665aa48) Use fThread = true default argument in CAlert::Notify
+- [`3110f7ebd`](https://github.com/ameropay/amero/commit/3110f7ebd) Fix issues introduced in 1770 (#1803)
+- [`5222e9377`](https://github.com/ameropay/amero/commit/5222e9377) Merge #7976: Remove obsolete reference to CValidationState from UpdateCoins.
+- [`93be53e34`](https://github.com/ameropay/amero/commit/93be53e34) Merge #7934: Improve rolling bloom filter performance and benchmark
+- [`65a71dcb2`](https://github.com/ameropay/amero/commit/65a71dcb2) Merge #8009: Docs: Fixed invalid example paths in gitian-building.md
+- [`19af9cfe1`](https://github.com/ameropay/amero/commit/19af9cfe1) Merge #8013: doc: Fedora build requirements, add gcc-c++ and fix typo
+- [`25147c9dc`](https://github.com/ameropay/amero/commit/25147c9dc) Merge #7814: [qa] Switch to py3
+- [`c66fcf47e`](https://github.com/ameropay/amero/commit/c66fcf47e) Merge #8011: don't run ThreadMessageHandler at lowered priority
+- [`d4b8abf4f`](https://github.com/ameropay/amero/commit/d4b8abf4f) Send non-tx/non-block inventory items
+- [`5d8e94a26`](https://github.com/ameropay/amero/commit/5d8e94a26) Merge #7840: Several performance and privacy improvements to inv/mempool handling
+- [`33233409a`](https://github.com/ameropay/amero/commit/33233409a) Merge #7966: http: Do a pending c++11 simplification handling work items
+- [`90b00cfc6`](https://github.com/ameropay/amero/commit/90b00cfc6) Merge #7953: Create signmessagewithprivkey rpc
+- [`233493b71`](https://github.com/ameropay/amero/commit/233493b71) Delete old "amero" registry key when installing/uninstalling
+- [`b78bd5cc7`](https://github.com/ameropay/amero/commit/b78bd5cc7) Ameroify help text of fundrawtransaction
+- [`da2de0771`](https://github.com/ameropay/amero/commit/da2de0771) Put ps_rounds to the bottom of the result of listunspent
+- [`15fc7f213`](https://github.com/ameropay/amero/commit/15fc7f213) De-bump fees in miner_tests.cpp
+- [`7d4046186`](https://github.com/ameropay/amero/commit/7d4046186) Fix failing fundrawtransaction tests
+- [`2c63839f2`](https://github.com/ameropay/amero/commit/2c63839f2) Ameroify fundrawtransaction exception
+- [`f8ad2ffa7`](https://github.com/ameropay/amero/commit/f8ad2ffa7) Merge #7977: [trivial] Add missing const qualifiers.
+- [`e6b2f918d`](https://github.com/ameropay/amero/commit/e6b2f918d) Merge #7968: doc: Fedora build requirements
+- [`79fe8e45f`](https://github.com/ameropay/amero/commit/79fe8e45f) Merge #8002: [depends] Add -stdlib=libc++ to darwin CXX flags
+- [`d55b78eb6`](https://github.com/ameropay/amero/commit/d55b78eb6) Merge #8000: tinyformat: force USE_VARIADIC_TEMPLATES
+- [`49c3127b5`](https://github.com/ameropay/amero/commit/49c3127b5) Merge #7974: More comments on the design of AttemptToEvictConnection.
+- [`9bed9ac9f`](https://github.com/ameropay/amero/commit/9bed9ac9f) Merge #7975: [doc] Update bitcoin-core GitHub links
+- [`6662e23a0`](https://github.com/ameropay/amero/commit/6662e23a0) Merge #7982: build: No need to check for leveldb atomics
+- [`7c6dab037`](https://github.com/ameropay/amero/commit/7c6dab037) Return from main instead of calling exit()
+- [`a468803bd`](https://github.com/ameropay/amero/commit/a468803bd) Merge #7964: Minor changes for c++11 consistency
+- [`d97501316`](https://github.com/ameropay/amero/commit/d97501316) Merge #7807: Fixed miner test values, gave constants for less error-prone values.
+- [`61227bb21`](https://github.com/ameropay/amero/commit/61227bb21) Merge #7962: CalculateNextWorkRequired Cleanup
+- [`03507a720`](https://github.com/ameropay/amero/commit/03507a720) Merge #7952: Log invalid block hash to make debugging easier.
+- [`c8bb792f4`](https://github.com/ameropay/amero/commit/c8bb792f4) Merge #7939: qt: Make it possible to show details for multiple transactions
+- [`d69bcb1a0`](https://github.com/ameropay/amero/commit/d69bcb1a0) Merge #7941: Fixing comment in script_test.json test case
+- [`7973142f1`](https://github.com/ameropay/amero/commit/7973142f1) Reformat listunstpent help to align with upstream
+- [`5cf744532`](https://github.com/ameropay/amero/commit/5cf744532) Merge #7916: Explicitly pass CChainParams& to DisconnectTip()
+- [`a60c35182`](https://github.com/ameropay/amero/commit/a60c35182) Error/Warning fixes for HD wallet part in wallet.cpp
+- [`bacc86464`](https://github.com/ameropay/amero/commit/bacc86464) Merge #7787: [Moveonly] Create ui_interface.cpp
+- [`c3e590968`](https://github.com/ameropay/amero/commit/c3e590968) Add missing parts from bitcoin PR #7762
+- [`8678f2b39`](https://github.com/ameropay/amero/commit/8678f2b39) Merge #7905: test: move accounting_tests and rpc_wallet_tests to wallet/test
+- [`4f5bb798e`](https://github.com/ameropay/amero/commit/4f5bb798e) Merge #7827: Speed up getchaintips.
+- [`1b17e94ee`](https://github.com/ameropay/amero/commit/1b17e94ee) Merge #7900: fix spelling mistake
+- [`96f9a7c3e`](https://github.com/ameropay/amero/commit/96f9a7c3e) Merge #7897: add missing newline
+- [`cfb8b82dc`](https://github.com/ameropay/amero/commit/cfb8b82dc) Merge #7848: Divergence between 32- and 64-bit when hashing >4GB affects `gettxoutsetinfo`
+- [`c172273e4`](https://github.com/ameropay/amero/commit/c172273e4) Ameroify new binary name variables
+- [`9bd55b1bf`](https://github.com/ameropay/amero/commit/9bd55b1bf) Merge #7603: Build System: Use PACKAGE_TARNAME in NSIS script
+- [`6c7d13380`](https://github.com/ameropay/amero/commit/6c7d13380) Merge #7518: Add multiple options to fundrawtransaction
+- [`f1197476a`](https://github.com/ameropay/amero/commit/f1197476a) Merge #7870: [contrib] Add MarcoFalke key and move all keys to contrib/gitian-keys
+- [`24f8c248f`](https://github.com/ameropay/amero/commit/24f8c248f) Merge #7856: Only send one GetAddr response per connection.
+- [`b2eabb097`](https://github.com/ameropay/amero/commit/b2eabb097) Merge #7809: depends: some base fixes/changes
+- [`60159eb2f`](https://github.com/ameropay/amero/commit/60159eb2f) Merge #7798: [travis] Print the commit which was evaluated
+- [`d532f22d3`](https://github.com/ameropay/amero/commit/d532f22d3) Use BIP32_EXTKEY_SIZE instead of fixed constant
+- [`7080c27dd`](https://github.com/ameropay/amero/commit/7080c27dd) Merge #7878: [test] bctest.py: Revert faa41ee
+- [`ac53190bf`](https://github.com/ameropay/amero/commit/ac53190bf) Add missing changes from Bitcoin #7853
+- [`c176f6c5b`](https://github.com/ameropay/amero/commit/c176f6c5b) Merge #7812: Tiny refactor of `IsRBFOptIn`, avoid exception
+- [`f1f3fa327`](https://github.com/ameropay/amero/commit/f1f3fa327) Merge #7846: Clean up lockorder data of destroyed mutexes
+- [`116b14b5f`](https://github.com/ameropay/amero/commit/116b14b5f) Merge #7849: tests: add varints_bitpatterns test
+- [`1ac85586c`](https://github.com/ameropay/amero/commit/1ac85586c) Merge #7847: doc: add arch linux build example
+- [`cc3a06bf5`](https://github.com/ameropay/amero/commit/cc3a06bf5) Merge #7863: getblockchaininfo: make bip9_softforks an object, not an array.
+- [`5b1ad12d1`](https://github.com/ameropay/amero/commit/5b1ad12d1) Merge #7855: [doc] gitian: Replace precise with trusty
+- [`20cb9aa21`](https://github.com/ameropay/amero/commit/20cb9aa21) Merge #7796: [amount] Add support for negative fee rates
+- [`e48f46c80`](https://github.com/ameropay/amero/commit/e48f46c80) Merge #7838: [Doc] Update gitian build guide to debian 8.4.0
+- [`d983f1d78`](https://github.com/ameropay/amero/commit/d983f1d78) Merge #7828: Trivial: Globals: Explicitly pass const CChainParams& to ProcessMessage()
+- [`2a7971010`](https://github.com/ameropay/amero/commit/2a7971010) Merge #7786: Doc: Update isStandardTx comment
+- [`b2d659f19`](https://github.com/ameropay/amero/commit/b2d659f19) Merge #7570: Net: Add IPv6 Link-Local Address Support
+- [`a8aeff143`](https://github.com/ameropay/amero/commit/a8aeff143) Merge #7801: [qa] Remove misleading "errorString syntax"
+- [`738e1c51c`](https://github.com/ameropay/amero/commit/738e1c51c) Merge #7793: [doxygen] Fix member comments
+- [`1f8ca7546`](https://github.com/ameropay/amero/commit/1f8ca7546) depends: mac deploy Py3 compatibility
+- [`e5b82075a`](https://github.com/ameropay/amero/commit/e5b82075a) Fix no-wallet build after backports refactored RPCs
+- [`f235b6a6a`](https://github.com/ameropay/amero/commit/f235b6a6a) Apply review suggestions/fixes
+- [`6a515e5e2`](https://github.com/ameropay/amero/commit/6a515e5e2) Merge #7788: Use relative paths instead of absolute paths in protoc calls
+- [`d5f1b5ae8`](https://github.com/ameropay/amero/commit/d5f1b5ae8) Merge #7791: Doc: change Precise to Trusty in gitian-building.md
+- [`e7d9ffa5d`](https://github.com/ameropay/amero/commit/e7d9ffa5d) Merge #7774: RPC: add versionHex in getblock and getblockheader JSON results
+- [`1cd653cc5`](https://github.com/ameropay/amero/commit/1cd653cc5) Merge #7781: devtools: Auto-set branch to merge to in github-merge
+- [`c86717a59`](https://github.com/ameropay/amero/commit/c86717a59) Merge #7813: [doc] Update port in tor.md
+- [`7ba8612b5`](https://github.com/ameropay/amero/commit/7ba8612b5) Merge #7797: RPC: fix generatetoaddress failing to parse address
+- [`a7514a8e6`](https://github.com/ameropay/amero/commit/a7514a8e6) Merge #7789: [Doc] Add note about using the Qt official binary installer.
+- [`9dbda86cb`](https://github.com/ameropay/amero/commit/9dbda86cb) HDWallet error/warning message fixes
+- [`298224b3b`](https://github.com/ameropay/amero/commit/298224b3b) Merge #7691: [Wallet] refactor wallet/init interaction
+- [`a5505e7e8`](https://github.com/ameropay/amero/commit/a5505e7e8) Merge #7711: [build-aux] Update Boost & check macros to latest serials
+- [`21b23d1ec`](https://github.com/ameropay/amero/commit/21b23d1ec) Merge #7785: Trivial: Fix typo: Optimizaton -> Optimization [skip ci]
+- [`960cb014d`](https://github.com/ameropay/amero/commit/960cb014d) Merge #7477: Fix quoting of copyright holders in configure.ac.
+- [`0956f3d67`](https://github.com/ameropay/amero/commit/0956f3d67) Merge #7763: Put hex-encoded version in UpdateTip
+- [`644240157`](https://github.com/ameropay/amero/commit/644240157) Merge #7766: rpc: Register calls where they are defined
+- [`18da34e29`](https://github.com/ameropay/amero/commit/18da34e29) Merge #7761: [Qt] remove trailing output-index from transaction-id
+- [`1c8441778`](https://github.com/ameropay/amero/commit/1c8441778) Merge #7573: P2P: add maxtimeadjustment command line option
+- [`a9a209f58`](https://github.com/ameropay/amero/commit/a9a209f58) Merge #7723: build: python 3 compatibility
+- [`ba65eb1ac`](https://github.com/ameropay/amero/commit/ba65eb1ac) Merge #7764: [qa] Don't run pruning.py twice
+- [`a309bf372`](https://github.com/ameropay/amero/commit/a309bf372) Clear setInternalKeyPool and setExternalKeyPool instead of setKeyPool
+- [`e2fefa539`](https://github.com/ameropay/amero/commit/e2fefa539) Merge #7558: [RPC] Add import/removeprunedfunds rpc call
+- [`ca33635ef`](https://github.com/ameropay/amero/commit/ca33635ef) Merge #7742: [Wallet][RPC] add missing abandon status documentation
+- [`34701da5c`](https://github.com/ameropay/amero/commit/34701da5c) Merge #7737: devtools: make github-merge.py use py3
+- [`a4911c383`](https://github.com/ameropay/amero/commit/a4911c383) Merge #7646: Fix lockunspent help message
+- [`f933c6726`](https://github.com/ameropay/amero/commit/f933c6726) Merge #7715: Fix calculation of balances and available coins.
+- [`760d58e3d`](https://github.com/ameropay/amero/commit/760d58e3d) Merge #7671: [RPC] Add generatetoaddress rpc to mine to an address
+- [`953aeead1`](https://github.com/ameropay/amero/commit/953aeead1) Merge #7710: [Depends] Bump miniupnpc and config.guess+sub
+- [`74fe8fe59`](https://github.com/ameropay/amero/commit/74fe8fe59) Merge #7649: Prevent multiple calls to CWallet::AvailableCoins
+- [`aa584522d`](https://github.com/ameropay/amero/commit/aa584522d) Amero related changes for feefilter
+- [`11ac70af9`](https://github.com/ameropay/amero/commit/11ac70af9) Merge #7542: Implement "feefilter" P2P message
+- [`283922243`](https://github.com/ameropay/amero/commit/283922243) Merge #7726: Correct importaddress help reference to importpubkey
+- [`04bf554ab`](https://github.com/ameropay/amero/commit/04bf554ab) Merge #7712: Improve COutPoint less operator
+- [`f4d30a645`](https://github.com/ameropay/amero/commit/f4d30a645) Merge #7708: De-neuter NODE_BLOOM
+- [`8fde2fd5f`](https://github.com/ameropay/amero/commit/8fde2fd5f) Merge #7705: [amount] Add tests and make GetFee() monotonic
+- [`721171ee3`](https://github.com/ameropay/amero/commit/721171ee3) Merge #7686: [qt] Remove 0-fee from send dialog
+- [`29d263389`](https://github.com/ameropay/amero/commit/29d263389) Merge #7594: Mempool: Add tracking of ancestor packages
+- [`49a8ed6d3`](https://github.com/ameropay/amero/commit/49a8ed6d3) Merge #7683: Fix torcontrol.cpp unused private field warning
+- [`abbbe61d0`](https://github.com/ameropay/amero/commit/abbbe61d0) Merge #7608: [wallet] Move hardcoded file name out of log messages
+- [`5f9bfa0b6`](https://github.com/ameropay/amero/commit/5f9bfa0b6) Merge #7670: use cached block hash in blockToJSON()
+- [`fb4ec255c`](https://github.com/ameropay/amero/commit/fb4ec255c) Merge #7663: Make the generate RPC call function for non-regtest
+- [`fa0341115`](https://github.com/ameropay/amero/commit/fa0341115) Merge #7507: Remove internal miner
+- [`332fbfc0e`](https://github.com/ameropay/amero/commit/332fbfc0e) HDWallet fixes after moving wallet initialization
+- [`b3525b2e6`](https://github.com/ameropay/amero/commit/b3525b2e6) Merge #7577: [Wallet] move "load wallet phase" to CWallet
+- [`8be396a3b`](https://github.com/ameropay/amero/commit/8be396a3b) Merge #7667: Move GetTempPath() to testutil
+- [`f1e95e358`](https://github.com/ameropay/amero/commit/f1e95e358) Merge #7635: [Documentation] Add dependency info to test docs
+- [`51c6ab20f`](https://github.com/ameropay/amero/commit/51c6ab20f) Merge #7576: [Wallet] move wallet help string creation to CWallet
+- [`24cf36972`](https://github.com/ameropay/amero/commit/24cf36972) Merge #7592: mempool: Re-remove ERROR logging for mempool rejects
+- [`23eeaeef8`](https://github.com/ameropay/amero/commit/23eeaeef8) Merge #7662: remove unused NOBLKS_VERSION_{START,END} constants
+- [`00d42b7c9`](https://github.com/ameropay/amero/commit/00d42b7c9) Merge #7539: Add tags to mempool's mapTx indices
+- [`d6a0de72a`](https://github.com/ameropay/amero/commit/d6a0de72a) fix splashscreen (shrink titleCopyrightVSpace)
+- [`af5aece96`](https://github.com/ameropay/amero/commit/af5aece96) make CopyrightHolders more generic
+- [`4e0bb527d`](https://github.com/ameropay/amero/commit/4e0bb527d) Merge #8373: Fix OSX non-deterministic dmg
+- [`51ca0d5b4`](https://github.com/ameropay/amero/commit/51ca0d5b4) Move privatesend to rpcwallet.cpp as well after Bitcoin #7307 was backported
+- [`02785c858`](https://github.com/ameropay/amero/commit/02785c858) Disable check-doc.py for now until all backported PRs are merged and docs fixed
+- [`48eddeea2`](https://github.com/ameropay/amero/commit/48eddeea2) Merge #7455: [travis] Exit early when check-doc.py fails
+- [`07338feae`](https://github.com/ameropay/amero/commit/07338feae) Merge #7620: [travis] Only run check-doc.py once
+- [`266520ced`](https://github.com/ameropay/amero/commit/266520ced) Merge #7632: Delete outdated test-patches reference
+- [`eed9428d2`](https://github.com/ameropay/amero/commit/eed9428d2) Merge #7616:  [depends] Delete unused patches
+- [`74eda8759`](https://github.com/ameropay/amero/commit/74eda8759) Merge #7537: wallet: Warn on unexpected EOF while salvaging wallet
+- [`5390a1a0a`](https://github.com/ameropay/amero/commit/5390a1a0a) Merge #7590: Improving wording related to Boost library requirements [updated]
+- [`f0300c6c5`](https://github.com/ameropay/amero/commit/f0300c6c5) Merge #7606: [depends] builders: No need to set -L and --location for curl
+- [`a890c7616`](https://github.com/ameropay/amero/commit/a890c7616) Merge #7612: [doc] Typo fix
+- [`984dc5271`](https://github.com/ameropay/amero/commit/984dc5271) Merge #7619: Add missing sudo entry in gitian VM setup.
+- [`6a121275d`](https://github.com/ameropay/amero/commit/6a121275d) Merge #7583: [doc] Fix typos
+- [`97c7da4b7`](https://github.com/ameropay/amero/commit/97c7da4b7) Merge #7509: Common argument defaults for NODE_BLOOM stuff and -wallet
+- [`ee5f8d211`](https://github.com/ameropay/amero/commit/ee5f8d211) Merge #7536: test: test leading spaces for ParseHex
+- [`cd7a2e2b5`](https://github.com/ameropay/amero/commit/cd7a2e2b5) Merge #7504: Crystal clean make clean
+- [`529e8ad63`](https://github.com/ameropay/amero/commit/529e8ad63) Merge #7528: autogen.sh: warn about needing autoconf if autoreconf is not found
+- [`de91ef95f`](https://github.com/ameropay/amero/commit/de91ef95f) Merge #7490: tests: Remove May15 test
+- [`7ec1e1887`](https://github.com/ameropay/amero/commit/7ec1e1887) Merge #7459: Consensus: Decouple pow.o from util.o
+- [`8874b2e0f`](https://github.com/ameropay/amero/commit/8874b2e0f) Merge #6480: include the chaintip blockindex in the SyncTransaction signal, add signal UpdateTip()
+- [`a3d1e5eda`](https://github.com/ameropay/amero/commit/a3d1e5eda) Merge #7070: Move maxTxFee out of mempool
+- [`e7a6f79e5`](https://github.com/ameropay/amero/commit/e7a6f79e5) Merge #7192: Unify product name to as few places as possible
+- [`0f8ce5688`](https://github.com/ameropay/amero/commit/0f8ce5688) Merge #7444: Improve block validity/ConnectBlock() comments
+- [`bcbd2cda2`](https://github.com/ameropay/amero/commit/bcbd2cda2) Merge #7091: Consensus build package
+- [`0afbd1c3d`](https://github.com/ameropay/amero/commit/0afbd1c3d) Merge #7084: mempool: Replace maxFeeRate of 10000*minRelayTxFee with maxTxFee
+- [`a65f7b7a7`](https://github.com/ameropay/amero/commit/a65f7b7a7) Merge #7311: MOVEONLY: Move non-consensus functions out of pow
+- [`c8e04d43f`](https://github.com/ameropay/amero/commit/c8e04d43f) Add missing comment in net.cpp
+- [`5f68e06a0`](https://github.com/ameropay/amero/commit/5f68e06a0) Add missing whitelistalwaysrelay arg to SET_DOC_OPTIONAL
+- [`6789bf6e1`](https://github.com/ameropay/amero/commit/6789bf6e1) Merge #7287: Consensus: Remove calls to error() and FormatStateMessage()
+- [`3cd83db0d`](https://github.com/ameropay/amero/commit/3cd83db0d) Merge #7441: Use Debian 8.3 in gitian build guide
+- [`c5f84c4e6`](https://github.com/ameropay/amero/commit/c5f84c4e6) Merge #6842: limitfreerelay edge case bugfix
+- [`6c5286aad`](https://github.com/ameropay/amero/commit/6c5286aad) Merge #7423: doc: add example for building with constrained resources
+- [`2fd5d93a9`](https://github.com/ameropay/amero/commit/2fd5d93a9) Merge #7437: GUI: Disable tab navigation for peers tables.
+- [`b277eed58`](https://github.com/ameropay/amero/commit/b277eed58) Merge #7425: devtools: Fix utf-8 support in messages for github-merge
+- [`5323a08af`](https://github.com/ameropay/amero/commit/5323a08af) Merge #7300: [trivial] Add missing copyright headers
+- [`577f683c5`](https://github.com/ameropay/amero/commit/577f683c5) Merge #7402: [devtools] github-merge get toplevel dir without extra whitespace
+- [`d9d9e95e4`](https://github.com/ameropay/amero/commit/d9d9e95e4) Merge #7395: devtools: show pull and commit information in github-merge
+- [`85919332d`](https://github.com/ameropay/amero/commit/85919332d) Merge #7236: Use createrawtx locktime parm in txn_clone
+- [`643181fe1`](https://github.com/ameropay/amero/commit/643181fe1) Merge #7262: Reduce inefficiency of GetAccountAddress()
+- [`43700eef3`](https://github.com/ameropay/amero/commit/43700eef3) Merge #7383: [Qt] rename "amount" to "requested amount" in receive coins table
+- [`59db2fda1`](https://github.com/ameropay/amero/commit/59db2fda1) Merge #7183: Improved readability of ApproximateBestSubset
+- [`78ad32d10`](https://github.com/ameropay/amero/commit/78ad32d10) Merge #7307: [RPC, Wallet] Move RPC dispatch table registration to wallet/ code
+- [`3be77849d`](https://github.com/ameropay/amero/commit/3be77849d) Merge pull request #7378
+- [`42997ee8d`](https://github.com/ameropay/amero/commit/42997ee8d) Merge pull request #7280
+- [`2474fd0ae`](https://github.com/ameropay/amero/commit/2474fd0ae) Merge pull request #7208
+- [`723eacf45`](https://github.com/ameropay/amero/commit/723eacf45) Merge pull request #7290
+- [`25ba3aba1`](https://github.com/ameropay/amero/commit/25ba3aba1) Merge pull request #7304
+- [`38080259b`](https://github.com/ameropay/amero/commit/38080259b) Merge pull request #7313
+- [`26a5dfe33`](https://github.com/ameropay/amero/commit/26a5dfe33) Merge pull request #7326
+- [`5ca9b1a9c`](https://github.com/ameropay/amero/commit/5ca9b1a9c) Merge pull request #7317
+- [`bcebc7c4c`](https://github.com/ameropay/amero/commit/bcebc7c4c) Merge pull request #7266
+- [`f04f8c19d`](https://github.com/ameropay/amero/commit/f04f8c19d) Merge pull request #7257
+- [`3f6d6572f`](https://github.com/ameropay/amero/commit/3f6d6572f) Merge pull request #7156
+- [`bf688abce`](https://github.com/ameropay/amero/commit/bf688abce) Merge pull request #7113
+- [`f1da40c87`](https://github.com/ameropay/amero/commit/f1da40c87) Merge #7550: rpc: Input-from-stdin mode for bitcoin-cli
+- [`f8407083c`](https://github.com/ameropay/amero/commit/f8407083c) Remove duplicated CCACHE= line in depends/config.site.in

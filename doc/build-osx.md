@@ -38,7 +38,7 @@ Next, follow the instructions in [build-generic](build-generic.md)
 Running
 -------
 
-Amero Core is now available at `./src/amerod`
+Amero Core is now available at `./src/amerox`
 
 Before running, it's recommended you create an RPC configuration file.
 
@@ -46,7 +46,7 @@ Before running, it's recommended you create an RPC configuration file.
 
     chmod 600 "/Users/${USER}/Library/Application Support/AmeroCore/amero.conf"
 
-The first time you run amerod, it will start downloading the blockchain. This process could take several hours.
+The first time you run amerox, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -55,6 +55,6 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/amerod -daemon # Starts the amero daemon.
+    ./src/amerox -daemon # Starts the amero daemon.
     ./src/amero-cli --help # Outputs a list of command-line options.
     ./src/amero-cli help # Outputs a list of RPC commands when the daemon is running.
